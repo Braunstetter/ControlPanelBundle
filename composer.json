@@ -1,19 +1,10 @@
 {
-    "name": "braunstetter/control-panel-bundle",
-    "description": "A collection of extensible templates for building great control panels for your software systems.",
-    "type": "symfony-bundle",
-    "license": "MIT",
     "authors": [
         {
             "name": "Slowwie",
             "email": "michaelbrauner82@gmail.com"
         }
     ],
-    "require": {
-        "php": "^8.0",
-        "braunstetter/template-hooks-bundle": "@dev",
-        "symfony/twig-bundle": "5.3.*"
-    },
     "autoload": {
         "psr-4": {
             "Braunstetter\\ControlPanel\\": "src/"
@@ -24,10 +15,19 @@
             "Braunstetter\\ControlPanel\\Test\\": "tests/"
         }
     },
+    "description": "A collection of extensible templates for building great control panels for your software systems.",
+    "license": "MIT",
+    "name": "braunstetter/control-panel-bundle",
     "repositories": [
         {
-            "type": "path",
-            "url": "../../TemplateHooksBundle"
+            "url": "../../TemplateHooksBundle",
+            "type": "path"
         }
-    ]
+    ],
+    "require": {
+        "php": "^8.0",
+        "braunstetter/template-hooks-bundle": "@dev",
+        "symfony/twig-bundle": "5.3.*"
+    },
+    "type": "symfony-bundle"
 }
