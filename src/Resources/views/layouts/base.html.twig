@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ app.request.locale }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+
+    {% block metadata %}{% endblock %}
+
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('bundles/controlpanel/tailwind.css') }}">
+    {% endblock %}
+
+    {% block javascripts %}{% endblock %}
+
+    {% block pushedJs deferred %}
+    {% for asset in assets()['js'] %}
+        <script src="{{ asset(asset) }}" defer></script>
+    {% endfor %}
+    {% endblock %}
+
+    {% block pushedCSS deferred %}
+    {% for asset in assets()['css'] %}
+        <link rel="stylesheet" href="{{ asset(asset) }}">
+    {% endfor %}
+    {% endblock %}
+    
+</head>
+
+<body data-controller="braunstetter--control-panel--toggle"
+      data-braunstetter--control-panel--toggle-hidden-class="showing-nav"
+      data-braunstetter--control-panel--toggle-target="item"
+>
+{% block container %}{% endblock %}
+
+</body>
+</html>

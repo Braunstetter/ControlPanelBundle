@@ -18,16 +18,15 @@
     "description": "A collection of extensible templates for building great control panels for your software systems.",
     "license": "MIT",
     "name": "braunstetter/control-panel-bundle",
-    "repositories": [
-        {
-            "url": "../../TemplateHooksBundle",
-            "type": "path"
-        }
-    ],
     "require": {
         "php": "^8.0",
-        "braunstetter/template-hooks-bundle": "@dev",
+        "braunstetter/template-hooks-bundle": "^0.1",
         "symfony/twig-bundle": "5.3.*"
     },
-    "type": "symfony-bundle"
+    "type": "symfony-bundle",
+    "require-dev": {
+        "symfony/framework-bundle": "^4.4|^5.0",
+        "phpunit/phpunit": "^9.5",
+        "symfony/test-pack": "^1.0"
+    }
 }
