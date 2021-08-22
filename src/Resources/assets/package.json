@@ -1,7 +1,7 @@
 {
-  "name": "@braunstetter/control-panel",
+  "name": "@braunstetter/control-panel-bundle",
   "version": "0.1.0",
-  "description": "Javascript for braunstetter/rock",
+  "description": "Javascript for @braunstetter/control-panel-bundle",
   "author": "Michael Brauner",
   "license": "MIT",
   "private": false,

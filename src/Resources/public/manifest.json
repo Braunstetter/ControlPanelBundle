@@ -1,0 +1,4 @@
+{
+  "bundles/controlpanel/tailwind.css": "/tailwind.css",
+  "bundles/controlpanel/runtime.js": "/runtime.js"
+}

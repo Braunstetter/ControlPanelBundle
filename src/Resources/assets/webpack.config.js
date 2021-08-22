@@ -10,7 +10,7 @@ if (!Encore.isRuntimeEnvironmentConfigured()) {
 }
 
 if(Encore.isProduction()) {
-    Encore.setOutputPath('./src/Resources/public/')
+    Encore.setOutputPath('./../public/')
 } else {
     Encore.setOutputPath('./../../../../../../../Sites/Agency/braunstetter/public/bundles/controlpanel')
 }
