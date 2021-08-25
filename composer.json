@@ -7,7 +7,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Braunstetter\\ControlPanel\\": "src/"
+            "Braunstetter\\ControlPanel\\": ""
         }
     },
     "autoload-dev": {

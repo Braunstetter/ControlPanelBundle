@@ -8,8 +8,8 @@ Sometimes you don't want to commit to a complete admin system. But you would lik
 
 ## What's inside
 
-- [base.html.twig](src/Resources/views/layouts/base.html.twig)
-- [cp_base.html.twig](src/Resources/views/cp_base.html.twig) (contains template hooks structure)
+- [base.html.twig](Resources/views/layouts/base.html.twig)
+- [cp_base.html.twig](Resources/views/cp_base.html.twig) (contains template hooks structure)
 
 You can extend these templates, but you can also use the [braunstetter/template-hooks-bundle](https://github.com/Braunstetter/TemplateHooksBundle) whose hooks are used inside of the cp_base.html.twig file.
 
@@ -90,7 +90,7 @@ In the meantime you have to register it by your own:
 In `package.json` add following to your dev-dependencies:
 
 ```json
-"@braunstetter/control-panel":  "file:vendor/braunstetter/control-panel-bundle/src/Resources/assets",
+"@braunstetter/control-panel":  "file:vendor/braunstetter/control-panel-bundle/Resources/assets",
 ```
 
 Then add the stimulus controller to the `controllers.json` file. 
