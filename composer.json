@@ -1,7 +1,16 @@
 {
+    "name": "braunstetter/control-panel-bundle",
+    "type": "symfony-bundle",
+    "description": "A collection of extensible templates for building great control panels in order to build your software systems.",
+    "keywords": [
+        "symfony-ux",
+        "braunstetter-control-panel",
+        "control-panel",
+        "rock-systems"
+    ],
     "authors": [
         {
-            "name": "Slowwie",
+            "name": "Michael Brauner",
             "email": "michaelbrauner82@gmail.com"
         }
     ],
@@ -15,16 +24,13 @@
             "Braunstetter\\ControlPanel\\Test\\": "tests/"
         }
     },
-    "description": "A collection of extensible templates for building great control panels in order to build your software systems.",
     "license": "MIT",
-    "name": "braunstetter/control-panel-bundle",
     "require": {
         "php": "^8.0",
         "braunstetter/template-hooks-bundle": "^0.1",
         "braunstetter/assets-push-bundle": "^0.1",
         "symfony/twig-bundle": "5.3.*"
     },
-    "type": "symfony-bundle",
     "require-dev": {
         "symfony/framework-bundle": "^4.4|^5.0",
         "phpunit/phpunit": "^9.5",
