@@ -23,7 +23,7 @@ Encore
 
     .setPublicPath('/')
     .setManifestKeyPrefix('bundles/controlpanel')
-    .addStyleEntry('bundle', './css/controlpanel.css')
+    .addStyleEntry('bundle', './css/bundle.css')
     // .addStyleEntry('base-form', './src/Assets/css/base-form.css')
     .splitEntryChunks()
 

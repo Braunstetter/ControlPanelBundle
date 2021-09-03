@@ -1,0 +1,3 @@
+test:
+  path: /test
+  controller: Braunstetter\ControlPanel\Test\app\src\Controller\TestController::index

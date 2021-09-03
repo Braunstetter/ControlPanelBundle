@@ -1,11 +1,11 @@
 {
   "entrypoints": {
-    "tailwind": {
+    "bundle": {
       "js": [
         "/runtime.js"
       ],
       "css": [
-        "/tailwind.css"
+        "/bundle.css"
       ]
     }
   }

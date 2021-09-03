@@ -29,7 +29,8 @@
         "php": "^8.0",
         "braunstetter/template-hooks-bundle": "^0.1",
         "braunstetter/assets-push-bundle": "^0.1",
-        "symfony/twig-bundle": "5.3.*"
+        "symfony/twig-bundle": "5.3.*",
+        "symfony/asset": "5.3.*"
     },
     "require-dev": {
         "symfony/framework-bundle": "^4.4|^5.0",

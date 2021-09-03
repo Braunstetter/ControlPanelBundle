@@ -1,18 +1,11 @@
 {% extends '@ControlPanel/layouts/base.html.twig' %}
 
-{% block title %}Hello SiteController!{% endblock %}
-
-
 {% block container %}
-
     <div id="global-container">
 
         <header id="global-sidebar">
-
             {% block cp_logo %}
-                <logo>
-                    {{ hook('rock.cp.logo') }}
-                </logo>
+                <logo>{{ hook('rock.cp.logo') }}</logo>
             {% endblock %}
 
             <section>
@@ -20,7 +13,6 @@
                     {{ hook('rock.cp.sidebar') }}
                 {% endblock %}
             </section>
-
         </header>
 
         <div id="page-container">
@@ -29,16 +21,14 @@
                 <div id="global-header-left">
                     <button id="nav-toggle" data-action="braunstetter--control-panel--toggle#toggle">
                         <span class="sr-only">{{ 'Open sidebar'|trans }}</span>
-
                         {{ source('@ControlPanel/images/burger.svg') }}
-                    </button>
+                    </button>s
 
                     {{ hook('rock.cp.global-header-left') }}
                 </div>
 
                 <div id="global-header-right">
                     {{ hook('rock.cp.global-header-right') }}
-
 {#                    {% include '@Rock/cp/menu/user-menu.html.twig' %}#}
                 </div>
 
@@ -61,5 +51,4 @@
             </main>
         </div>
     </div>
-
 {% endblock %}

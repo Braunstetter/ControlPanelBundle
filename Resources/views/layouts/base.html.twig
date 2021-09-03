@@ -8,7 +8,7 @@
     {% block metadata %}{% endblock %}
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('bundles/controlpanel/tailwind.css') }}">
+        <link rel="stylesheet" href="{{ asset('bundles/controlpanel/bundle.css') }}">
     {% endblock %}
 
     {% block javascripts %}{% endblock %}
@@ -24,7 +24,6 @@
         <link rel="stylesheet" href="{{ asset(asset) }}">
     {% endfor %}
     {% endblock %}
-    
 </head>
 
 <body data-controller="braunstetter--control-panel--toggle"
@@ -32,6 +31,5 @@
       data-braunstetter--control-panel--toggle-target="item"
 >
 {% block container %}{% endblock %}
-
 </body>
 </html>
