@@ -18,7 +18,7 @@ yarn install --force
 - [layouts/base.html.twig](Resources/views/layouts/base.html.twig) (Mobile structure - but empty)
 - [base.html.twig](Resources/views/base.html.twig) (contains structure with template hooks)
 
-You can extend these templates, but you can also use the [braunstetter/template-hooks-bundle](https://github.com/Braunstetter/TemplateHooksBundle) whose hooks are used inside of the cp_base.html.twig file.
+You can extend these templates, but you can also use the [braunstetter/template-hooks-bundle](https://github.com/Braunstetter/TemplateHooksBundle) whose hooks are used inside of the `base.html.twig` file.
 
 ## Example
 
@@ -65,7 +65,7 @@ symfony console make:controller
 Change `templates/site/index.html.twig`:
 
 ```html
-{% extends '@ControlPanel/cp_base.html.twig' %}
+{% extends '@ControlPanel/base.html.twig' %}
 
 {% block title %}Hello SiteController!{% endblock %}
 
