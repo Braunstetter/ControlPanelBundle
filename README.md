@@ -1,5 +1,9 @@
 # ControlPanelBundle
 
+[![Build Status](https://app.travis-ci.com/Braunstetter/ControlPanelBundle.svg?branch=main)](https://app.travis-ci.com/Braunstetter/ControlPanelBundle)
+[![Total Downloads](http://poser.pugx.org/braunstetter/control-panel-bundle/downloads)](https://packagist.org/packages/braunstetter/control-panel-bundle)
+[![License](http://poser.pugx.org/braunstetter/control-panel-bundle/license)](https://packagist.org/packages/braunstetter/control-panel-bundle)
+
 Sometimes you don't want to commit to a complete admin system. But you would like to have a nice admin panel structure ready to be extended.
 
 ## Installation
