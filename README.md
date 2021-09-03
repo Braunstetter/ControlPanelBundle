@@ -15,8 +15,8 @@ yarn install --force
 
 ## What's inside
 
-- [base.html.twig](Resources/views/layouts/base.html.twig)
-- [cp_base.html.twig](Resources/views/cp_base.html.twig) (contains template hooks structure)
+- [layouts/base.html.twig](Resources/views/layouts/base.html.twig) (Mobile structure - but empty)
+- [base.html.twig](Resources/views/base.html.twig) (contains structure with template hooks)
 
 You can extend these templates, but you can also use the [braunstetter/template-hooks-bundle](https://github.com/Braunstetter/TemplateHooksBundle) whose hooks are used inside of the cp_base.html.twig file.
 
@@ -80,6 +80,6 @@ Change `templates/site/index.html.twig`:
 symfony serve -d
 ```
 
-Now you can see the result by visiting the `/site` url.)
+Now you can see the result by visiting the `/site` url.
 
 ![Empty control panel](docs/images/empty_control_panel.png)
