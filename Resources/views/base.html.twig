@@ -29,7 +29,7 @@
 
                 <div id="global-header-right">
                     {{ hook('rock.cp.global-header-right') }}
-{#                    {% include '@Rock/cp/menu/user-menu.html.twig' %}#}
+                    {# {% include '@Rock/cp/menu/user-menu.html.twig' %} #}
                 </div>
 
             </div>
@@ -37,7 +37,7 @@
             <main id="main-container">
                 <div id="header-container">
                     <header id="header">
-                        <h1>Dashboard</h1>
+                        {% block header %} {% endblock %}
                     </header>
                 </div>
 
