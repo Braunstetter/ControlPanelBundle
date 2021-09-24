@@ -43,9 +43,11 @@
 
                 <div id="main-content">
                     <div id="content-container">
-                        <div id="content">
-                            {% block content %}{% endblock %}
-                        </div>
+                        {% block blank_content %}
+                            <div id="content">
+                                {% block content %}{% endblock %}
+                            </div>
+                        {% endblock %}
                     </div>
                 </div>
             </main>
