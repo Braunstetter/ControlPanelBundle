@@ -82,7 +82,7 @@ body {
 
         #main-content {
 
-            @apply container-spacing py-6;
+            @apply container-spacing;
 
             #content-container {
                 @apply flex-1;
