@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       colors: {
         gray: colors.blueGray,
+      },
+      minWidth: {
+        '1/2': '50%'
       }
     },
   },
