@@ -160,6 +160,9 @@ The result:
 
 > The `bs-button-default` is a [custom button class](src/Resources/assets/css/elements/buttons.css) this bundle provides.
 
+> The nice menu on the left side is provided by the [braunstetter/menu-bundle](https://github.com/Braunstetter/menu-bundle).
+ 
+
 ### BoxType
 
 Maybe you ask yourself where the nice sidebar box is coming from. And probably you recognized the `TestBoxType` inside the `buildSidebarForm` method.
@@ -191,4 +194,4 @@ class TestBoxType extends AbstractType
 
 This time you just have to overwrite the `getParent()` and return the `Braunstetter\ControlPanel\Form\BoxType`. (Because this FormType has no special methods.)
 
-> The BoxType has the symfony `inherit_data` option active by default. This way you can just use it just like you put the forms inside the parent class themselves.
+> The BoxType has the symfony [inherit_data](https://symfony.com/doc/current/form/inherit_data_option.html) option active by default. This way you can just use it just like you put the forms inside the parent class themselves.
