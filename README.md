@@ -127,7 +127,7 @@ class OrangePuppyType extends PageType
 
     public function buildToplineRightForm(FormInterface $builder, array $options)
     {
-        $builder->add('submit', SubmitType::class, ['attr' => ['class' => 'bs-button-default']]);
+        $builder->add('submit', SubmitType::class, ['attr' => ['class' => 'cp-button-default']]);
     }
 
     public function configureOptions(OptionsResolver $resolver)
@@ -158,7 +158,7 @@ And here comes the explanation.
 The result:
 ![page form result](./docs/images/page_form_result.png)
 
-> The `bs-button-default` is a [custom button class](src/Resources/assets/css/elements/buttons.css) this bundle provides.
+> The `cp-button-default` is a [custom button class](src/Resources/assets/css/elements/buttons.css) this bundle provides.
 
 > The nice menu on the left side is provided by the [braunstetter/menu-bundle](https://github.com/Braunstetter/menu-bundle).
  
