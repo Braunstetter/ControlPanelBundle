@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "stimulus": "^2",
-    "stimulus-use": "latest",
-    "stimulus-reveal-controller": "^3.0.0"
+    "stimulus-reveal-controller": "^3.0.0",
+    "stimulus-use": "latest"
   }
 }

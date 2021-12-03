@@ -29,12 +29,12 @@
         "php": "^8.0",
         "braunstetter/template-hooks-bundle": "^0.1",
         "braunstetter/assets-push-bundle": "^0.1",
-        "symfony/twig-bundle": "5.3.*",
-        "symfony/asset": "5.3.*",
-        "symfony/form": "^5.3"
+        "symfony/twig-bundle": "^5.3|^6.0",
+        "symfony/asset": "^5.3|^6.0",
+        "symfony/form": "^5.3|^6.0"
     },
     "require-dev": {
-        "symfony/framework-bundle": "^4.4|^5.0",
+        "symfony/framework-bundle": "^4.4|^5.0|^6.0",
         "phpunit/phpunit": "^9.5",
         "symfony/test-pack": "^1.0"
     }

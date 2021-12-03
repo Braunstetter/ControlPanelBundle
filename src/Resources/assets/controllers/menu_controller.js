@@ -7,7 +7,6 @@ export default class extends Controller {
   #open = false
 
   connect() {
-    console.log('hpho')
     useClickOutside(this)
     useTransition(this, { element: this.contentTarget })
 
