@@ -27,7 +27,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "braunstetter/template-hooks-bundle": "^0.1",
+        "braunstetter/template-hooks-bundle": "^0.2",
         "braunstetter/assets-push-bundle": "^0.1",
         "symfony/twig-bundle": "^5.3|^6.0",
         "symfony/asset": "^5.3|^6.0",
