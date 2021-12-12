@@ -1,3 +1,11 @@
+.delete-able-image {
+    @apply flex space-x-3 items-center text-gray-700;
+
+    > a > svg {
+        @apply w-6 h-6;
+    }
+}
+
 .user-picture > img {
     @apply rounded-full;
 }
