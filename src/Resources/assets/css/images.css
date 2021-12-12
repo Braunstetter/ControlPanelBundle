@@ -1,0 +1,7 @@
+.user-picture > img {
+    @apply rounded-full;
+}
+
+.file-preview {
+    @apply mb-6;
+}

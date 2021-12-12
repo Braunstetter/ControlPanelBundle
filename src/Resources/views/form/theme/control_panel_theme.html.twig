@@ -1,0 +1,28 @@
+{% block file_widget %}
+
+    {% if image is defined and image is not null %}
+        {{ block('filePreview') }}
+
+        {% if image_delete_route is defined and image_delete_route is not null %}
+            <div class="delete-able-image">
+                <a href="{{ path('image_delete_trigger', {'_token':  csrf_token('delete' ~ image.id), 'id' : image.id }) }}">
+                    {{ source('@ControlPanel/images/icon-trash.svg') }}</a>
+                {{ block('form_widget') }}
+            </div>
+        {% else %}
+            {{ block('form_widget') }}
+        {% endif %}
+
+    {% else %}
+        {{ block('form_widget') }}
+    {% endif %}
+
+{% endblock %}
+
+{% block filePreview %}
+    <div class="file-preview">
+        <img src="{{ asset(image.getFullPath)| imagine_filter('square') }}" alt="{{ image.filename }}"
+             width="350px"
+             height="350px"/>
+    </div>
+{% endblock %}
