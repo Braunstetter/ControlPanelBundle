@@ -24,13 +24,13 @@
                     {{ source('@ControlPanel/images/burger.svg') }}
                 </button>
 
-                {% block global-header-left %}
+                {% block global_header_left %}
                 {{ hook('cp.global-header-left') }}
                 {% endblock %}
             </div>
 
             <div id="global-header-right">
-                {% block global-header-right %}
+                {% block global_header_right %}
                 {{ hook('cp.global-header-right') }}
                 {% endblock %}
             </div>
