@@ -21,7 +21,7 @@ form.page-form {
         @apply space-y-4 lg:space-y-0 lg:flex lg:space-x-4;
 
         > div[id$="_body"] {
-            @apply flex-1 p-6 rounded-lg shadow bg-white;
+            @apply flex-1 p-6 rounded-lg shadow bg-white space-y-5;
         }
 
         > div[id$="_side"] {
