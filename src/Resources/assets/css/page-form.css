@@ -67,8 +67,8 @@ form {
             }
         }
 
-        input, select {
-            @apply block border border-gray-200 text-sm;
+        input, select, .rx-container {
+            @apply block border border-gray-400 text-sm;
             @apply appearance-none py-2 px-3;
             @apply focus:ring-offset-0 focus:ring-1 focus:ring-gray-400;
             @apply focus-visible:outline-none;
