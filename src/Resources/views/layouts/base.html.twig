@@ -7,6 +7,12 @@
 
     {% block metadata %}{% endblock %}
 
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('bundles/controlpanel/bundle.css') }}">
+    {% endblock %}
+
+    {% block javascripts %}{% endblock %}
+
     {% block pushedJs deferred %}
     {% for asset in assets()['js'] %}
         <script src="{{ asset(asset) }}" defer></script>
@@ -18,13 +24,6 @@
         <link rel="stylesheet" href="{{ asset(asset) }}">
     {% endfor %}
     {% endblock %}
-
-    {% block javascripts %}{% endblock %}
-
-    {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('bundles/controlpanel/bundle.css') }}">
-    {% endblock %}
-
 </head>
 
 <body data-controller="braunstetter--control-panel-bundle--toggle"
