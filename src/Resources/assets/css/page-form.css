@@ -54,7 +54,7 @@ form {
             @apply block tracking-wide text-gray-700;
         }
 
-        input:not([type='checkbox']), textarea, select {
+        input:not([type=checkbox]):not([type=radio]), textarea, select {
             @apply w-full;
         }
 
@@ -73,6 +73,8 @@ form {
             @apply focus:ring-offset-0 focus:ring-1 focus:ring-gray-400;
             @apply focus-visible:outline-none;
         }
+
+
     }
 }
 
