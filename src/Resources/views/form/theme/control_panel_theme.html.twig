@@ -26,3 +26,16 @@
              height="350px"/>
     </div>
 {% endblock %}
+
+{%- block choice_widget_expanded -%}
+    {% set widget_class = 'cp_choice_widget_expanded' %}
+    {%- set attr = attr|merge({ class: attr.class is defined ? attr.class ~ " #{widget_class}" : widget_class}) -%}
+    <div {{ block('widget_container_attributes') }}>
+        {%- for child in form %}
+            <div class="cp_choice_expanded_row">
+                {{- form_widget(child) -}}
+                {{- form_label(child, null, { translation_domain: choice_translation_domain }) -}}
+            </div>
+        {% endfor -%}
+    </div>
+{%- endblock choice_widget_expanded -%}
