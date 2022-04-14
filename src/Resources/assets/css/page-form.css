@@ -76,15 +76,11 @@ form {
     }
 
     .cp_choice_widget_expanded {
-        display: flex;
-
-        > * + * {
-            margin-left: 1rem;
-        }
 
         .cp_choice_expanded_row {
             display: flex;
             align-items: center;
+            margin-top: 0.5rem;
 
             > * + * {
                 margin-left: 0.5rem;
