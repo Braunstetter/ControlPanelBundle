@@ -1,0 +1,7 @@
+.form-errors {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #DC2626;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+}
